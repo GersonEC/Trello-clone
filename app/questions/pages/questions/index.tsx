@@ -26,11 +26,11 @@ export const QuestionsList = () => {
               <a>{question.text}</a>
             </Link>
             <ul>
-              {questions.choices?.map((choice) => (
+              {/*questions.choices?.map((choice) => (
                 <li key={choice.id}>
                   {choice.text} - {choice.votes} votes
                 </li>
-              ))}
+              ))*/}
             </ul>
           </li>
         ))}

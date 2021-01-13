@@ -24,7 +24,7 @@ export const EditQuestion = () => {
               where: { id: question.id },
               data: { text: "Do you really love Blitz?" },
             })
-            await setQueryData(updated)
+            /*await setQueryData(updated)*/
             alert("Success!" + JSON.stringify(updated))
             router.push(`/questions/${updated.id}`)
           } catch (error) {
